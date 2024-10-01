@@ -16,4 +16,4 @@ The app has so far had a standard, black leather theme, a delicate, blue leather
 
 Panama will join this family of beautiful leather skins in the upcoming 4.2 release, and brings a green, calm alternative for your everyday zen life.
 
-Wally 4.2 will be out soon. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.twitter_url}}) and [Instagram]({{site.instagram_url}}) for the latest updates.
+Wally 4.2 will be out soon. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.urls.twitter}}) and [Instagram]({{site.urls.instagram}}) for the latest updates.

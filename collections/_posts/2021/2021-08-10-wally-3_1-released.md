@@ -11,4 +11,4 @@ Wally 3.1 has been released, with all the new features mentioned in the previous
 
 ![iPhones running Wally]({{page.image-trans}} "Wally 3.1 is released")
 
-I can't wait to hear what you think of the new app. You can download it from [the App Store]({{site.appstore_url}}) and send us feedback and report problems directly from the app.
+I can't wait to hear what you think of the new app. You can download it from [the App Store]({{site.urls.appstore}}) and send us feedback and report problems directly from the app.

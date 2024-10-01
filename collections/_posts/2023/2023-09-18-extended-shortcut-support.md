@@ -26,4 +26,4 @@ iOS 17 will use machine learning to improve its Siri capabilities. This means th
 
 Biometric authentication will still apply, which means that you must still identify yourself with Face ID or Touch ID when the shortcut opens the app, before the item will be shown.
 
-Wally 4.4 will be out on the [App Store]({{site.appstore_url}}) next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.twitter_url}}) and [Instagram]({{site.instagram_url}}) for the latest updates.
+Wally 4.4 will be out on the [App Store]({{site.urls.appstore}}) next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.urls.twitter}}) and [Instagram]({{site.urls.instagram}}) for the latest updates.

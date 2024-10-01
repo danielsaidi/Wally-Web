@@ -1,5 +1,4 @@
 .site-header {
-
   min-height: 0px;
 	border: 0 !important;
   padding: 15px 0;
@@ -10,6 +9,10 @@
   }
 
   .logo img {
+    max-height: 25px;
+  }
+
+  .logo img.icon {
     max-height: 50px;
   }
 
@@ -26,5 +29,11 @@
   .column:nth-of-type(2) {
     flex-basis: 90%;
     text-align: right;
+  }
+
+  .pricing {
+    background-color: gold;
+    padding: 5px 10px;
+    border-radius: 1em;
   }
 }

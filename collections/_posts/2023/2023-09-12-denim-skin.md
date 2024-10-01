@@ -16,4 +16,4 @@ Wally 4.2 added the first new skin since skins were introduced over a year ago. 
 
 Wall 4.3 will add a brand new skin type to the mix. Denim is the first of many denim-based skin to be added to the app. It's classic, it's blue, it's denim...and it's beautiful.
 
-Wally 4.3 will be out soon. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.twitter_url}}) and [Instagram]({{site.instagram_url}}) for the latest updates.
+Wally 4.3 will be out soon. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.urls.twitter}}) and [Instagram]({{site.urls.instagram}}) for the latest updates.

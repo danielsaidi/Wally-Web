@@ -1,10 +1,9 @@
-$texture: url('/assets/leather.png');
-$texture-overlay: #0005;
+$texture: url('/assets/bg/leather.jpg');
 $texture-size: 350px;
 
 $site-background: $texture;
-$content-background: $texture;
-$footer-background: #080808;
+$content-background: #0006;
+$footer-background: #000a;
 
 $foreground: #fff;
 $foreground-secondary: #aaa;
@@ -13,12 +12,5 @@ $shadow: black;
 $link: #ccc;
 $link-hover: #fff;
 
-$hero-background: $texture;
-$hero-line: $texture-overlay;
-
-$footer-background: $texture-overlay;
-
-$tag-background: black;
-$tag-foreground: white;
 $tag-hover: #223;
 $tag-border: solid 1px #fff5;

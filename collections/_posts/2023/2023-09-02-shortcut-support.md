@@ -16,4 +16,4 @@ Wally 4.2 replaces this with brand new ways to open any of your items from the S
 
 Wallys biometric authentication will still apply, which means that you must still identify yourself with Face ID or Touch ID when the shortcut opens the app, before the item will be shown.
 
-Wally 4.2 will be released during next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.twitter_url}}) and [Instagram]({{site.instagram_url}}) for the latest updates.
+Wally 4.2 will be released during next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.urls.twitter}}) and [Instagram]({{site.urls.instagram}}) for the latest updates.

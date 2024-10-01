@@ -1,9 +1,9 @@
-<header class="site-header" role="banner">
+<header class="site-header {{ include.class }}" role="banner">
   <div class="row wrapper">
     <div class="column">
       <a class="logo" href="/">
         {%- if site.header_image -%}
-        <img src="{{ site.header_image }}" alt="{{site.title}} icon/logo" title="{{site.title}} home page" />
+        <img src="{{ site.header_image }}" alt="{{site.title}} icon/logo" title="{{site.title}} home page" class="{{site.header_image_type}}" />
         {%- elsif site.header_logo_text -%}
         <span>{{ site.header_logo_text }}</span>
         {%- endif -%}
@@ -14,13 +14,24 @@
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       <ul class="horizontal">
         {%- for path in page_paths -%}
-          {%- assign page = site.pages | where: "path", path | first -%}
-          {%- if page.title -%}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>&nbsp;</li> 
+          {%- assign item = site.pages | where: "path", path | first -%}
+          {%- if item.title -%}
+          <li>
+            {%- if item.id == "pricing" -%}
+            <a href="{{ item.url | relative_url }}" class="{{ item.id }} sticker scale">{{ item.title | escape }}</a>
+            {%- else -%}
+            <a href="{{ item.url | relative_url }}" class="{{ item.id }}">{{ item.title | escape }}</a>
+            {%- endif -%}
+          </li> 
           {%- endif -%}
         {%- endfor -%}
       </ul>
     </div>
   </p>
   </div>
+  
+  {% if include.class | contains:"paper" %}
+  <hr class="wrapper" />
+  {% endif %}
+
 </header>

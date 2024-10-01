@@ -4,33 +4,40 @@
 # will be accessible in the templates via {{ site.myvariable }}.
 
 title: Wally
-email: info@wally.app
 description: >-
   Wally is a digital backup of your physical wallet. Put your cards into Wally to keep them safe and available at all times.
 
 url: https://wally.app
-rss_url: https://getlicensekit.com/feed.xml
+email: info@wally.app
+
 is_app: 1
 
-copyright_year: 2012-2022
+copyright_year: 2012-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-appstore_url: https://itunes.apple.com/app/wally/id516398915
-instagram_url: https://www.instagram.com/wally.app
 instagram_username: wally.app
-mastodon_url: https://mastodon.social/@kankoda
 mastodon_username: kankoda@mastodon.social
-twitter_url: https://twitter.com/thewallyapp
 twitter_username: thewallyapp
 
 assets: /assets/
 header_image: /assets/icon/icon-320.png
 header_image_type: icon
 
+urls:
+  email: mailto:info@wally.app
+  rss: https://getlicensekit.com/feed.xml
+
+  appstore:   https://itunes.apple.com/app/wally/id516398915
+  blog:       /blog
+  instagram:  https://www.instagram.com/wally.app
+  mastodon:   https://mastodon.social/@kankoda
+  twitter: https://twitter.com/thewallyapp
+
 header_pages:
   - index.html
   - pages/blog.md
+  - pages/download.md
 
 footer_sitemap:
   - index.html

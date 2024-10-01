@@ -9,26 +9,25 @@ hero-title: Welcome to Wally
 description: Wally is a digital backup of your physical wallet. Put your cards into Wally to keep them safe and available at all times.
 ---
 
-<div class="home">
+<div class="home-content paper">
   <p>
     Wally protects your cards with biometric authentication and can generate QR codes and barcodes for your cards.
   </p>
 
-  {% include kankoda/apps/app-store-button.html %}
+  {% include kankoda/buttons/app-store.html %}
 
   <section>
     <h2>Latest news</h2>
     <div>
       <a href="/blog">Blog</a> ·
-      <a href="{{ site.twitter_url }}">Twitter</a> ·
+      <a href="{{ site.urls.twitter }}">Twitter</a> ·
       <a href="{{ site.mastodon_url }}">Mastodon</a>
     </div>
-    <p></p>
-    <div class="grid blog list">
+    <div class="grid home blog list">
       {% for post in site.posts limit:2 %}
-          <div>
-            {% include kankoda/blog/post-list-item.html post=posts.first %}
-          </div>
+      <div>
+        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+      </div>
       {% endfor %}
     </div>
   </section>

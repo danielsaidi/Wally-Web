@@ -18,4 +18,4 @@ All recognized text will be added to a convenient popup menu next to the various
 
 This will make it a lot easier for you to add information to your things. Instead of typing text by hand, just tap the menu and pick from any recognized text.
 
-Wally 4.4 will be out on the [App Store]({{site.appstore_url}}) next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.twitter_url}}) and [Instagram]({{site.instagram_url}}) for the latest updates.
+Wally 4.4 will be out on the [App Store]({{site.urls.appstore}}) next week. Make sure to keep an eye on this blog and follow Wally on [Twitter]({{site.urls.twitter}}) and [Instagram]({{site.urls.instagram}}) for the latest updates.
