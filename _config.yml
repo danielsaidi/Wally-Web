@@ -16,6 +16,7 @@ copyright_year: 2012-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
+bluesky_username: "@kankoda.bsky.social"
 instagram_username: wally.app
 mastodon_username: kankoda@mastodon.social
 twitter_username: thewallyapp
@@ -29,10 +30,11 @@ urls:
   rss: https://getlicensekit.com/feed.xml
 
   appstore:   https://itunes.apple.com/app/wally/id516398915
+  bluesky:    https://bsky.app/profile/kankoda.bsky.social
   blog:       /blog
   instagram:  https://www.instagram.com/wally.app
   mastodon:   https://mastodon.social/@kankoda
-  twitter: https://twitter.com/thewallyapp
+  twitter:    https://twitter.com/thewallyapp
 
 header_pages:
   - index.html
