@@ -68,6 +68,11 @@ plugins:
 defaults:
   -
     scope:
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
       type: "posts"
     values:
       author: "danielsaidi"
