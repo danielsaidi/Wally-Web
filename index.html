@@ -33,7 +33,7 @@ description: Wally is a digital wallet for iPhone and iPad. Put your things into
     <div class="grid home blog list">
       {% for post in site.posts limit:2 %}
       <div>
-        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+        {% include kankoda/blog/image-item.html post=posts.first tag-limit=1 %}
       </div>
       {% endfor %}
     </div>
