@@ -39,7 +39,6 @@ urls:
 header_pages:
   - index.html
   - pages/blog.md
-  - pages/download.md
 
 footer_sitemap:
   - index.html
