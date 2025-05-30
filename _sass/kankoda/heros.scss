@@ -2,18 +2,31 @@
   text-align: center;
 
   h1 { 
-    font-size: 1.8em !important; 
+    font-size: 2.0em !important; 
     font-weight: 510;
   }
+
   h2 { 
     font-size: 2.3em !important; 
     font-weight: 600;
     line-height: normal;
     margin-top: 0em !important; 
-    margin-bottom: 60px; 
+    margin-bottom: 40px; 
+  }
+
+  h3 {
+    opacity: 70%;
+    font-size: 1.5em;
+    margin-top: 0px !important;
+  }
+
+  p.cta-container {
+    margin-bottom: 40px;
   }
   
-  h2 + img { margin-bottom: 30px; }
+  img.hero-image { 
+    margin-bottom: 30px; 
+  }
 
   img.app-icon {
     width: 150px;
