@@ -1,4 +1,17 @@
-.hero {
+section.hero {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+section.hero + section.hero {
+  margin-top: 0px;
+}
+
+section.hero.image.wrapper {
+  max-width: 1100px;
+}
+
+section.hero {
   text-align: center;
 
   h1 { 
@@ -7,25 +20,15 @@
   }
 
   h2 { 
-    font-size: 2.3em !important; 
+    font-size: 2.3em; 
     font-weight: 600;
-    line-height: normal;
-    margin-top: 0em !important; 
-    margin-bottom: 40px; 
+    margin-top: 0em;
   }
 
   h3 {
     opacity: 70%;
-    font-size: 1.5em;
-    margin-top: 0px !important;
-  }
-
-  p.cta-container {
-    margin-bottom: 40px;
-  }
-  
-  img.hero-image { 
-    margin-bottom: 30px; 
+    font-size: 1.4em;
+    margin-top: 30px;
   }
 
   img.app-icon {
@@ -50,13 +53,18 @@
     margin-top: -40px !important;
     margin-bottom: 60px;
   }
+
+  .cta-container {
+    margin-bottom: 0px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
-  .hero {
-    h1 { font-size: 1.2em !important; }
+  section.hero {
+    h1 { font-size: 1.4em !important; }
     h2 { font-size: 1.6em !important; }
+    h3 { font-size: 1.0em !important; }
   
     img.app-icon {
       width: 100px;

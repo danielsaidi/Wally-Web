@@ -36,9 +36,13 @@ urls:
   mastodon:   https://mastodon.social/@kankoda
   twitter:    https://twitter.com/thewallyapp
 
-header_pages:
-  - index.html
-  - pages/blog.md
+header:
+  pages:
+    - index.html
+    - pages/blog.md
+  cta:
+    title: Download
+    url: https://danielsaidi.com
 
 footer_sitemap:
   - index.html

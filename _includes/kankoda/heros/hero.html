@@ -25,24 +25,26 @@
   <h2>{{page.hero-description | default: page.description}}</h2>
   {% endif %}
 
-  <p class="cta-container">
-    {%- if page.cta -%}
-    <a href="{{ page.cta.url }}" class="cta scale">
-      {{ page.cta.title }}
-    </a>
-    {%- endif -%}
-    {%- if page.cta && page.cta-secondary -%}
-    &nbsp;
-    {%- endif -%}
+  {%- if page.cta or page.cta-secondary -%}
+  <div class="cta-container">
     {%- if page.cta-secondary -%}
     <a href="{{ page.cta-secondary.url }}" class="cta secondary scale">
       {{ page.cta-secondary.title }}
     </a>
     {%- endif -%}
-  </p>
-
-  {% if has-image > 0 %}
-  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero-image-class}}" />
-  {% endif %}
+    {%- if page.cta -%}
+    <a href="{{ page.cta.url }}" class="cta scale">
+      {{ page.cta.title }}
+    </a>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
 </section>
+
+{% if has-image > 0 %}
+<section class="hero image wrapper">
+  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero-image-class}}" />
+</section>
+{% endif %}
+
 {% endif %}
