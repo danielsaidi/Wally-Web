@@ -44,12 +44,12 @@ header:
     title: Download
     url: https://danielsaidi.com
 
-footer_sitemap:
-  - index.html
-  - pages/blog.md
-
-footer_app:
-  - pages/privacy-policy.md
+footer:
+  sitemap:
+    - index.html
+    - pages/blog.md
+  app:
+    - pages/privacy-policy.md
 
 collections_dir: collections
 
