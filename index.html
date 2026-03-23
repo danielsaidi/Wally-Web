@@ -3,9 +3,10 @@ id: home
 layout: default
 title: Home
 
-hero-image: /assets/devices.png
-hero-title: Wally
-hero-tagline: Your Personal Digital Wallet
+hero:
+  image:    /assets/devices.png
+  eyebrow:  Wally
+  title:    Your Personal Digital Wallet
 
 description: Wally is a digital wallet for iPhone and iPad. Add things to Wally to keep them safe and available at all times.
 ---
@@ -23,14 +24,17 @@ description: Wally is a digital wallet for iPhone and iPad. Add things to Wally 
 
   {% include kankoda/buttons/app-store %}
 
-  <section>
+  <section class="slide-in">
     <h2>Latest news</h2>
     <div>
       <a href="/blog">Blog</a> ·
       <a href="{{ site.urls.bluesky }}">Bluesky</a> ·
       <a href="{{ site.urls.mastodon }}">Mastodon</a>
     </div>
-    <div class="grid home blog list">
+  </section>
+
+  <section class="slide-in">
+    <div class="grid col2">
       {% for post in site.posts limit:2 %}
       <div>
         {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}

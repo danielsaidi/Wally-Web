@@ -15,6 +15,26 @@ function scrollToTop() {
 }
 
 
+// Animations
+
+document.addEventListener('DOMContentLoaded', function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  });
+
+  document.querySelectorAll('.slide-in').forEach(item => {
+    observer.observe(item);
+  });
+});
+
+
 // Licenses
 
 function hideAllLicenseTables() {
@@ -37,12 +57,14 @@ function showLicenseTable(sub) {
 
 function toggleTagList() {
   let el = $(".tag-list");
-  let toggle = $(".tag-list-toggle");
+  let toggle = $(".tag-list-toggle a");
   el.toggleClass("expanded");
   let isExpanded = el.hasClass("expanded");
   if (isExpanded) {
+    el.removeClass("collapsed")
     toggle.text("Hide tags");
   } else {
+    el.addClass("collapsed")
     toggle.text("Show tags");
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }

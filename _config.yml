@@ -26,12 +26,14 @@ header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
 urls:
-  email: mailto:info@wally.app
-  rss: https://getlicensekit.com/feed.xml
+  email:  mailto:info@wally.app
 
+  blog:       /blog
+  rss:        /feed.xml
+  privacy:    /privacy-policy
+  
   appstore:   https://itunes.apple.com/app/wally/id516398915
   bluesky:    https://bsky.app/profile/kankoda.bsky.social
-  blog:       /blog
   instagram:  https://www.instagram.com/wally.app
   mastodon:   https://mastodon.social/@kankoda
   twitter:    https://twitter.com/thewallyapp
@@ -42,14 +44,12 @@ header:
     - pages/blog.md
   cta:
     title: Download
-    url: https://danielsaidi.com
+    url: https://itunes.apple.com/app/wally/id516398915
 
 footer:
   sitemap:
     - index.html
     - pages/blog.md
-  app:
-    - pages/privacy-policy.md
 
 collections_dir: collections
 
