@@ -3,13 +3,12 @@ title:  Re-adding a missing feature
 date:   2021-08-16 18:00:00 +0100
 tags:   features
 
-image:       https://wally.app/assets/devices-v3-leather.jpg
-image-trans: https://wally.app/assets/devices.png
+devices: https://wally.app/assets/devices.png
 ---
 
 As some of you may have noticed, the big rewrite and the introduction of the new card screen caused a favorite feature to disappear - the full screen modal card. Well, it's coming back.
 
-![iOS devices running Wally]({{page.image-trans}})
+![iOS devices running Wally]({{page.devices}})
 
 As Wally was rewritten from scratch, some features had to be pushed into the future, to get the new version into the hands of users and get some initial feedback.
 

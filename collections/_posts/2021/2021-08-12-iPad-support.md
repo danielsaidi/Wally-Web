@@ -3,13 +3,12 @@ title:  iPad support is coming
 date:   2021-08-12 18:00:00 +0100
 tags:   features ipad
 
-image:       https://wally.app/assets/devices-v3-leather.jpg
-image-trans: https://wally.app/assets/devices.png
+devices: https://wally.app/assets/devices.png
 ---
 
 iPad support is coming to Wally! It will be available in the upcoming 3.2 version and will let you access your cards on all your mobile Apple devices.
 
-![iOS devices running Wally]({{page.image-trans}} "Wally soon comes to iPad")
+![iOS devices running Wally]({{page.devices}} "Wally soon comes to iPad")
 
 Adding iPad support to Wally has been a pretty smooth ride, where the biggest change has been how cards are presented. Where iPhone devices list cards in a vertical list, iPad devices will instead use a grid to use more of the bigger screen. The grid will be adaptive and adjust itself to the size of the screen.
 
