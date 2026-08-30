@@ -5,7 +5,9 @@
 
 :root {
   // Texture
-  --bg-texture: url('/assets/bg/leather.jpg');
+  // Interpolated so the old Ruby Sass on GitHub Pages (jekyll-sass-converter
+  // 1.5.2) accepts url() inside a custom property.
+  --bg-texture: #{'url("/assets/bg/leather.jpg")'};
   --bg-texture-overlay: #0005;
 
   --bg: #000;
