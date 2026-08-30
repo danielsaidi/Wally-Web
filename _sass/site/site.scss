@@ -1,0 +1,91 @@
+// Site theme
+//
+// The design system is light by default. Wally overrides it with the leather
+// texture and light-on-dark content that the site has always used.
+
+:root {
+  // Texture
+  --bg-texture: url('/assets/bg/leather.jpg');
+  --bg-texture-overlay: #0005;
+
+  --bg: #000;
+  --header-bg: #000a;
+  --footer-bg: #000a;
+
+  // Foreground
+  --text: #fff;
+  --text-secondary: #ddd;
+  --shadow-color: black;
+
+  // Borders
+  --border: rgba(255, 255, 255, 0.2);
+  --border-glass: rgba(255, 255, 255, 0.33);
+
+  // Tags
+  --tag-hover: #223;
+  --tag-border: #fff5;
+}
+
+h1, header .brand {
+  font-family: "Pacifico";
+  font-weight: 400;
+}
+
+.home {
+  h2, h3 {
+    font-family: "Pacifico";
+    font-weight: 400;
+  }
+}
+
+
+section.hero {
+  background-color: transparent;
+
+  --hero-content-gap: 3.5rem;
+
+  @media (max-width: 700px) {
+    --hero-content-gap: 2.5rem;
+  }
+
+  img.icon {
+    width: 220px;
+    border-radius: 26%;
+
+    @media (max-width: 700px) {
+      width: 100px;
+    }
+  }
+}
+
+header, footer, section {
+  border: none !important;
+}
+
+section.showcase::before {
+  content: none;  // Remove glow
+}
+
+a.cta {
+  background-color: white;
+  color: black !important;
+  border-color: black;
+}
+
+
+// Tags
+
+.tag:not(.pro) {
+  --tag-bg: transparent;
+
+  &:hover,
+  &.active {
+    --tag-bg: var(--tag-hover);
+  }
+}
+
+.tag.releases {
+  background-color: white;
+  color: black;
+  border: none;
+}

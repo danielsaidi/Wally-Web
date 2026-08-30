@@ -24,6 +24,7 @@ twitter_username: thewallyapp
 assets: /assets/
 header_image: /assets/icon/icon-header.png
 header_image_type: icon
+fonts: Pacifico
 
 urls:
   email:  mailto:info@wally.app
@@ -39,9 +40,12 @@ urls:
   twitter:    https://twitter.com/thewallyapp
 
 header:
+  title: Wally
+  icon: /assets/icon/header.png
   pages:
     - index.html
     - pages/blog.md
+    - pages/download.md
   cta:
     title: Download
     url: https://itunes.apple.com/app/wally/id516398915
@@ -93,12 +97,20 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      page-class: "dark"
+      image: /assets/headers/website.jpg
+  -
+    scope:
+      path: "pages/blog.md"
+    values:
+      image: /assets/headers/blog.jpg
   -
     scope:
       type: "posts"
     values:
       author: "danielsaidi"
       layout: "post"
+      page-class: "dark"
 
 exclude:
   - Gemfile

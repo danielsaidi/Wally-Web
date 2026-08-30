@@ -1,0 +1,32 @@
+<article class="wrapper wide slide-in">
+  <h2>About Wally</h2>
+  <img src="/assets/devices.png">
+</article>
+
+<article class="wrapper wide slide-in">
+  <h3>What is Wally?</h3>
+  <p>
+    Wally is a digital wallet app for iPhone and iPad. Wally can store all your bank & loyalty cards, identifications, passports, receipts, notes, etc. and keep them safe with Face ID.
+  </p>
+</article>
+
+<article class="wrapper wide slide-in">
+  <h3>How Does it Work?</h3>
+  <p>
+    Wally is very easy to use. Just take a picture of the front and back of anything you want to add to your wallet, and Wally will add it to your wallet and protect it.
+  </p>
+</article>
+
+<article class="wrapper wide slide-in">
+  <h3>Biometric Authentication</h3>
+  <p>
+    Wally protects your items with biometric authentication (Face ID & TouchID), and requires that you authenticate yourself before you can open the app.
+  </p>
+</article>
+
+<article class="wrapper wide slide-in">
+  <h3>Look & Feel</h3>
+  <p>
+    Wally looks and feels just like a real wallet, and can be styled with custom skins and fonts.
+  </p>
+</article>

@@ -1,41 +1,41 @@
 ---
-id: home
-layout: default
 title: Home
+layout: plain
 
-hero:
-  image:    /assets/devices.png
-  eyebrow:  Wally
-  title:    Your Personal Digital Wallet
+page-class: "dark"
+image: /assets/headers/website.jpg
 
-description: Wally is a digital wallet for iPhone and iPad. Add things to Wally to keep them safe and available at all times.
+description: Wally is a digital wallet for iPhone and iPad. Add your cards, receipts, etc. to Wally to keep them safe and available at all times.
 ---
 
-<div class="home-content paper">
-  <p>
-    Wally is a digital wallet for your things, like bank, loyalty & ID cards, passports & travel documents, event tickets, business cards, notes, receipts, photos, etc.
-  </p>
-  <p>
-    Wally protects your cards with biometric authentication, and can generate QR codes and barcodes for your cards, call and email your business contacts, etc.
-  </p>
-  <p>
-    Download Wally from the App Store today.
-  </p>
+<section class="hero">
+  <img src="/assets/icon/icon.png" class="glass icon" />
+  <h1>Wally - Digital Wallet</h1>
+  <p>{{ page.description }}</p>
+  <div>
+    <a href="#content" class="cta secondary">Learn More</a>
+    <a href="{{site.urls.appstore}}" class="cta">Download</a>
+  </div>
+</section>
 
-  APP STORE
+<a name="content"></a>
 
-  <section class="slide-in">
-    <h2>Latest news</h2>
-    <div>
-      <a href="/blog">Blog</a> ·
-      <a href="{{ site.urls.bluesky }}">Bluesky</a> ·
-      <a href="{{ site.urls.mastodon }}">Mastodon</a>
-    </div>
-  </section>
+<a name="news"></a>
+<section class="showcase">
+  {% include home-news %}
+</section>
 
-  <section class="slide-in">
-    <div class="grid col2">
-      Blog list
-    </div>
-  </section>
-</div>
+<a name="social"></a>
+<section class="showcase">
+  {% include home-social %}
+</section>
+
+<a name="download"></a>
+<section class="showcase">
+  {% include home-download %}
+</section>
+
+<a name="about"></a>
+<section class="showcase">
+  {% include home-about %}
+</section>

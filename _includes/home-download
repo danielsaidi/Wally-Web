@@ -1,0 +1,9 @@
+<article class="wrapper wide slide-in">
+  <h2>Download Wally</h2>
+  <p>
+    Download Wally from the App Store today.
+  </p>
+  <p>
+    <a href="{{site.urls.appstore}}" alt="Download Wally"><img src="/assets/app-store.png" width="250" /></a>
+  </p>
+</article>
