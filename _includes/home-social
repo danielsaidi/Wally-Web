@@ -1,7 +1,5 @@
 <article class="wrapper wide slide-in">
-  <div>
-    <h3>Follow</h3>
-    <p>Follow Wally on <a href="{{site.urls.instagram}}">Instagram</a>, or subscribe to the Kankoda newsletter for product updates.</p>
-    {% include kankoda/gumroad/newsletter %}
-  </div>
+  <h2>Follow</h2>
+  <p>Follow Wally on <a href="{{site.urls.instagram}}">Instagram</a>, or subscribe to the Kankoda newsletter for product updates.</p>
+  {% include kankoda/gumroad/newsletter %}
 </article>
