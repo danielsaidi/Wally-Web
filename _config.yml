@@ -47,9 +47,28 @@ header:
     url: https://itunes.apple.com/app/wally/id516398915
 
 footer:
-  sitemap:
-    - index.html
-    - pages/blog.md
+  # Sections with links defined as "Title | url" strings.
+  sections:
+    - title: Site
+      links:
+        - Home | /
+        - Blog | /blog
+    - title: App
+      links:
+        - App Store | https://itunes.apple.com/app/wally/id516398915
+        - Privacy Policy | /privacy-policy
+    - title: News & Press
+      links:
+        - Blog | /blog
+        - RSS | /feed.xml
+    - title: Social
+      links:
+        - E-mail | mailto:info@wally.app
+        - Instagram | https://www.instagram.com/wally.app
+    - title: Kankoda
+      links:
+        - Website | https://kankoda.com
+        - Apps | https://kankoda.com/apps
 
 collections_dir: collections
 

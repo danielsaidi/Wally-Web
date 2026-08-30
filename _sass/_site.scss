@@ -1,6 +1,3 @@
-@import "kankoda/_variables";
-@import "site/_variables";
-@import "kankoda/_styles";
-@import "site/global";
-
-@import url("css/syntax.css");
+@import "kankoda/variables";
+@import "kankoda/styles";
+@import "site/site";
