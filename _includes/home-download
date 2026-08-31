@@ -3,5 +3,5 @@
   <p>
     Download Wally from the App Store today.
   </p>
-  <a href="{{site.urls.appstore}}" alt="Download Wally"><img src="/assets/app-store.png" width="175" /></a>
+  {% include kankoda/buttons/appstore %}
 </article>
