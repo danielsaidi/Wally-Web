@@ -31,7 +31,7 @@ urls:
 
   blog:       /blog
   rss:        /feed.xml
-  privacy:    /privacy-policy
+  privacy:    /privacy
   
   appstore:   https://itunes.apple.com/app/wally/id516398915
   bluesky:    https://bsky.app/profile/kankoda.bsky.social
@@ -60,7 +60,7 @@ footer:
     - title: App
       links:
         - App Store | https://itunes.apple.com/app/wally/id516398915
-        - Privacy Policy | /privacy-policy
+        - Privacy Policy | /privacy
     - title: News & Press
       links:
         - Blog | /blog

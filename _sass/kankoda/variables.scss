@@ -6,13 +6,16 @@
 
   --bg-texture: none;
   --bg-texture-size: 550px;
-  --bg-texture-overlay: #0005;
+  --bg-texture-overlay: #fff0;
 
+  --bg-blue-subtle: #F5F9FE;
   --bg-blue: rgba(231, 239, 252, 0.7);
   --bg-green: rgba(229, 250, 229, 0.7);
   --bg-orange: rgba(252, 237, 220, 0.7);
   --bg-purple: rgba(235, 229, 249, 0.7);
   --bg-red: rgba(252, 231, 231, 0.7);
+  --bg-gold: linear-gradient(135deg, rgba(255, 248, 220, 0.96), rgba(255, 228, 200, 0.92));
+  --bg-silver: linear-gradient(135deg, rgba(245, 245, 247, 0.96), rgba(232, 232, 235, 0.92));
 
   --header-bg: var(--bg);
   --header-text: var(--text);
@@ -68,12 +71,8 @@
   --shadow-default: 0 4px 24px rgba(0,0,0,0.12);
 
   --text: var(--text-light);
-  --text-secondary: var(--text-light-secondary);
-
-  --text-dark: #FFFD;
-  --text-dark-secondary: #FFFFFFAA;
-  --text-light: #000D;
-  --text-light-secondary: #000A;
+  --text-dark: #FFFFFFDD;
+  --text-light: #000000DD;
 
   --wrapper-width: 900px;
   --wrapper-width-wide: 1250px;
